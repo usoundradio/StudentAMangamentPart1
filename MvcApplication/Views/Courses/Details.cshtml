@@ -1,0 +1,26 @@
+@model MvcApplication.Models.Course
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Course</legend>
+
+    <div class="display-label">Name</div>
+    <div class="display-field">@Model.Name</div>
+
+    <div class="display-label">Students</div>
+    <div class="display-field">@(Model.Students == null ? "None" : Model.Students.Count.ToString())</div>
+
+    <div class="display-label">Lectures</div>
+    <div class="display-field">@(Model.Lectures == null ? "None" : Model.Lectures.Count.ToString())</div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.CourseId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+
+

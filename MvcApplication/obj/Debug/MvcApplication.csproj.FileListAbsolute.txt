@@ -1,0 +1,7 @@
+C:\Users\Logan Head\Documents\Visual Studio 2010\Projects\MvcApplication\MvcApplication\obj\Debug\MvcApplication.csprojResolveAssemblyReference.cache
+C:\Users\Logan Head\Documents\Visual Studio 2010\Projects\MvcApplication\MvcApplication\bin\MvcApplication.dll
+C:\Users\Logan Head\Documents\Visual Studio 2010\Projects\MvcApplication\MvcApplication\bin\MvcApplication.pdb
+C:\Users\Logan Head\Documents\Visual Studio 2010\Projects\MvcApplication\MvcApplication\bin\EntityFramework.dll
+C:\Users\Logan Head\Documents\Visual Studio 2010\Projects\MvcApplication\MvcApplication\bin\EntityFramework.xml
+C:\Users\Logan Head\Documents\Visual Studio 2010\Projects\MvcApplication\MvcApplication\obj\Debug\MvcApplication.dll
+C:\Users\Logan Head\Documents\Visual Studio 2010\Projects\MvcApplication\MvcApplication\obj\Debug\MvcApplication.pdb

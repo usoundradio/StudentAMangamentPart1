@@ -1,0 +1,64 @@
+@model IEnumerable<MvcApplication.Models.Lecture>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table>
+    <tr>
+        <th></th>
+        <th>
+            Name
+        </th>
+        <th>
+            Date
+        </th>
+        <th>
+            Description
+        </th>
+        <th>
+            Notes
+        </th>
+        <th>
+            Course
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.LectureId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.LectureId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.LectureId })
+        </td>
+        <td>
+			@item.Name
+        </td>
+        <td>
+       
+    @item.Date.ToString("dd MMM yyyy")
+       
+          
+          
+
+        </td>
+        <td>
+			@item.Description
+        </td>
+        <td>
+			@item.Notes
+        </td>
+        <td>
+			@(item.Course == null ? "None" : item.Course.Name)
+        </td>
+    </tr>
+}
+
+</table>
+
+
